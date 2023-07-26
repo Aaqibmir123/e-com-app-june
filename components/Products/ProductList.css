@@ -1,0 +1,102 @@
+/* ProductList.css */
+
+/* Styling for the main container */
+.product-list-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the heading */
+.product-list-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the dark mode button */
+.dark-mode-button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+/* Styling for the product grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Styling for each product item */
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the product image */
+.product-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the product title */
+.product-item h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Styling for the product brand */
+.product-item p {
+  margin-bottom: 5px;
+}
+
+/* Styling for the product price */
+.product-item p.price {
+  font-weight: bold;
+}
+
+/* Styling for the add to cart button */
+.product-item button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the "View Details" link */
+.product-item a.view-details-link {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  border: 5px solid black;
+}
+
+.product-item a.view-details-link:hover {
+  background-color: #0056b3;
+}

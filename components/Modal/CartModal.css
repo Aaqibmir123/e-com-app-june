@@ -1,0 +1,35 @@
+/* Add this CSS to your stylesheet or component's CSS file */
+
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Center the cards horizontally */
+  align-items: center; /* Center the cards vertically */
+  max-height: 80vh; /* Add a maximum height to the container to prevent overflow */
+  overflow-y: auto; /* Add vertical scroll to the container if needed */
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column; /* Place the button below the cart details */
+  align-items: center; /* Center the items in the column */
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px; /* Reduce the text heading size */
+}
+
+.cart-item button {
+  margin-top: 10px; /* Add some space between cart details and the button */
+}
